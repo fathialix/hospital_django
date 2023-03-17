@@ -31,7 +31,7 @@ def insertData(request):
 
         query = Patient(name=name, contact=contact, age=age, gender=gender)
         query.save()
-        return redirect("/")
+        return redirect("index/")
 
         return render(request, 'index.html')
 
@@ -39,7 +39,7 @@ def insertData(request):
 def deleteData(request, id):
     d = Patient.objects.get(id=id)
     d.delete()
-    return redirect("/")
+    return redirect("index/")
 
     return render(request, "index.html")
 
@@ -59,8 +59,12 @@ def updateData(request, id):
 
         update_info.save()
 
-        return redirect("/")
+        return redirect("index/")
 
     d = Patient.objects.get(id=id)
     context = {"d": d}
     return render(request, "edit.html", context)
+
+
+def index(request):
+    return render(request, "index2.html")
