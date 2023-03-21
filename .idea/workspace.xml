@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="db58c083-fee4-4ba1-8517-c3bdd73b8469" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fathi_djangoproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/fathi_djangoproject/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fathi_djangoproject/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/fathi_djangoproject/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +95,9 @@
       <workItem from="1679031172731" duration="1208000" />
       <workItem from="1679032488482" duration="959000" />
       <workItem from="1679033847233" duration="2634000" />
+      <workItem from="1679036576377" duration="2766000" />
+      <workItem from="1679375665533" duration="464000" />
+      <workItem from="1679376149512" duration="12000" />
     </task>
     <servers />
   </component>
